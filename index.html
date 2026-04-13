@@ -1441,9 +1441,10 @@
       if (courseVal === 'B.Sc.' && !document.querySelector('input[name="bsc-combo"]:checked')) { document.getElementById('bscErr').classList.add('show'); ok = false; }
       if (!ok) { document.querySelector('.inv,.crs-err.show,.combo-err.show')?.scrollIntoView({ behavior: 'smooth', block: 'center' }); return; }
 
+      // Replace this placeholder with your generated Apps Script Web App URL
       const scriptURL = 'https://script.google.com/macros/s/AKfycbzm_4ipfsv5tqtIniiV3InNpKFa_BD2tsxbmd1ZIvYy_uQWojvCbFbnX_de5l10dJKu/exec';
 
-      if (scriptURL === 'YOUR_GOOGLE_APPS_SCRIPT_URL_HERE') {
+      if (scriptURL === 'https://script.google.com/macros/s/AKfycbzm_4ipfsv5tqtIniiV3InNpKFa_BD2tsxbmd1ZIvYy_uQWojvCbFbnX_de5l10dJKu/exec') {
         alert("Please provide the Google Apps Script URL in the HTML file first (line ~640!). Following instructions provided.");
         return;
       }
